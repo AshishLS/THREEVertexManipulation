@@ -6,13 +6,12 @@ Most of the things are same with some minor cleaning
 
 Youtube Link - https://youtu.be/YK1Sw_hnm58
 
-Tools:
-Node
-Threejs
-Live Server - Vite
-Tailwind CSS
-Google Fonts
-gsap for animation
-Dat-GUI
-
+<p class="has-line-data" data-line-start="1" data-line-end="9">Tools:<br>
+Node<br>
+Threejs<br>
+Live Server - Vite<br>
+Tailwind CSS<br>
+Google Fonts<br>
+gsap for animation<br>
+Dat-GUI</p>
 
