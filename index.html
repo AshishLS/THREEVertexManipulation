@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Vite</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,600&family=Space+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      -webkit-font-smoothing: antialised;
+    }
+
+    .font-exo2 {
+      font-family: 'Exo 2', sans-serif;
+      font-style: italic;
+    }
+
+    .font-space-mono {
+      font-family: 'Space Mono', monospace;
+    }
+
+    .intro-text {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <div class='absolute text-white text-center intro-text'>
+      <h1 class="font-space-mono text-xs uppercase tracking-wide"> Ashish Shete </h1>
+       <h1 class="font-space-mono text-sm uppercase tracking-wide">Chris Courses</h1>
+      <p class="font-exo2 text-4xl mt-8"> INFINITY AND BEYOND <br>
+        TO BOLDLY GO WHERE NO MAN HAS GONE BEFORE
+      </p>
+      <a href="http://alspensieve.blogspot.com/" class="border px-4 py-2 rounded-lg text-sm font-space-mono uppercase mt-8
+      hover:bg-white hover:text-gray-800 inline-block">View</a>
+    </div>
+
+    <div id="dat-gui-container" class="absolute"> </div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

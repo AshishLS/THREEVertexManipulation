@@ -1,0 +1,16 @@
+{
+  "name": "my-portfolio",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.3.4"
+  },
+  "dependencies": {
+    "dat-gui": "^0.5.0",
+    "gsap": "^3.6.1"
+  }
+}
